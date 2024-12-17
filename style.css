@@ -49,7 +49,7 @@ p {
 }
 
 header {
-  padding: 4px;
+  padding: 0.2%;
   text-align: center;
   background: #083782;
   color: white;
@@ -67,7 +67,6 @@ nav {
   background-color: #ddd;
 }
 
-
 nav li {
   list-style-type: none;
   display: inline-block;
@@ -77,46 +76,53 @@ nav li {
   text-align: center;
 }
 
-
 nav a {
-float: left;
-text-align: center;
-color: black;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 0.65em;
-font-family: "Inter", serif;
-font-weight: 400;
-font-optical-sizing: auto;
-font-style: normal;
+  float: left;
+  text-align: center;
+  color: black;
+  padding: 1.4vh 0.8vw;
+  text-decoration: none;
+  font-size: 0.65em;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-
 
 nav a:hover {
-background-color: rgb(153, 17, 17);
-color: black;
+  background-color: rgb(153, 17, 17);
+  color: black;
 }
-
 
 nav a.active {
-background-color: #04AA6D;
-color: white;
+  background-color: #04AA6D;
+  color: white;
 }
+
 nav img {
-display:flex;
-width: 50px;
-height: 50px;
+  display:flex;
+  width: 100%;
+  height: 50%;
 }
-.logo{
-float: left;
-max-width: 100px;  
+
+.nav-logo {
+  width: 4vw;
 }
+
+/* .logo{
+  float: left;
+  max-width: 25%;  
+} */
+
 .logo-foot {
-
-max-width: 120px;
-
-
+  max-width: 124%;
 }
+
+.icon{
+  float: right;
+  max-width: 25%;
+}
+
 .trionttl {
   text-align: center;
   font-family: "Inter", serif;
@@ -124,6 +130,7 @@ max-width: 120px;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
  /*Flash*/
 .flash-div {
   display: flex;
@@ -145,7 +152,6 @@ max-width: 120px;
   font-style: normal;
   font-stretch: 200%;
   font-size: large;
-  margin-bottom: 30px;
   float: right;
   right: 0;
 }
@@ -181,20 +187,8 @@ max-width: 120px;
   width: 50%;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.home-main {
-  margin: 0 -5px;
-}
-
-/* Clear floats after the columns */
-.home-main:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .home-main, .home-main > .home-card {
-padding: 8px;
+padding: 0.4%;
 }
 
 .home-cards {
@@ -235,12 +229,6 @@ padding: 8px;
 }
 
 /*Nemesis*/
-.icon{
-  float: right;
-  max-width: 100px;
-}
-
-
 .navbar-footer-nav {
   overflow: hidden;
   bottom: 0;
@@ -263,9 +251,9 @@ padding: 8px;
 .navbar-footer-nav a {
   display: inline-block;
   color: black;
-  padding: 14px 16px;
+  padding: 6% 7%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
   background-color: #c9c8c8;
 }
 
@@ -290,10 +278,10 @@ footer {
 }
 
 /* Center website */
-.main {
+/* .main {
 max-width: 1000px;
 margin: auto;
-}
+} */
 
 
 h1 {
@@ -523,8 +511,8 @@ clear: both;
 }
 
 .button {
-  width: 88px;
-  height: 45px;
+  width: 4vw;
+  height: 4.5vh;
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
