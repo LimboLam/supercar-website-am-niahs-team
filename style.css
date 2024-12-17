@@ -105,22 +105,12 @@ nav img {
   height: 50%;
 }
 
-.nav-logo {
+.nav-img {
   width: 4vw;
 }
 
-/* .logo{
-  float: left;
-  max-width: 25%;  
-} */
-
 .logo-foot {
   max-width: 124%;
-}
-
-.icon{
-  float: right;
-  max-width: 25%;
 }
 
 .trionttl {
