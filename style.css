@@ -439,11 +439,10 @@ clear: both;
   padding: 3px;
   margin-left: 10px;
   margin-top: 8px;
-}
-.left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
 .arrowpr {
   border: solid black;
   border-width: 0 4px 4px 0;
@@ -451,8 +450,6 @@ clear: both;
   padding: 3px;
   margin-left: 14px;
   margin-top: 9px;
-}
-.leftpr {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
