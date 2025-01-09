@@ -359,8 +359,6 @@ clear: both;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
   display: block;
-  margin-left: 50%;
-  margin-right: 50%;
   width: 23.5vw;
 
 }
@@ -407,6 +405,11 @@ clear: both;
 
 .cardpr:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.merchpos {
+  display: flex;
+  justify-content: center;
 }
 
 /*Merch Preview*/
