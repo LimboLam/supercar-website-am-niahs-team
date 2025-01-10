@@ -15,29 +15,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <p style="background-image: url(images/Background.png)"></p>
     <header class="index-header">
       <nav>
-        <a href="index.html" class="nav-img"><img src="images/trion.logo.png" alt="Home"></a>
+        <a href="index.html"><img src="images/trion.logo.png" alt="logo" class="logo"></a>
         <a href="nemesis.html">Nemesis</a>
         <a href="black-widow.html">Black Widow</a>
         <a href="merch.html">Merch</a>
         <a href="configure.html">Customize</a>  
         <a href="about-us.html">About Us </a>
-        <a href="profile.html" class="nav-img"><img src="images/icon.trion.png" alt="Sign Up"></a>
+        <a href="profile.html"><img src="images/icon.trion.png" class="icon"></a>
       </nav>
     </header>
-    <main class="checkout-container">
+    <div class="checkout-container">
       <div class="left-side">
         <div class="text-box">
           <h1 class="home-heading">YOUR NEMESIS</h1>
           <p class="home-price"><em> 1.6 million dollars USD </em></p>
         </div>
       </div>
+
       <div class="right-side">
         <div class="receipt">
           <h2 class="receipt-heading">Receipt Summary</h2>
           <div>
             <table class="table">
+              <tr>
+                <td>White Nemesis</td>
+                <td class="price">1,600,000.00 USD</td>
+              </tr>
               <tr>
                 <td>Discount</td>
                 <td class="price">0.00 USD</td>
@@ -52,11 +58,12 @@
               </tr>
               <tr class="total">
                 <td>Total</td>
-                <td class="price">1,600,047.41 USD</td>
+                <td class="price">1,600,000.41 USD</td>
               </tr>
             </table>
           </div>
         </div>
+
         <div class="payment-info">
           <h3 class="payment-heading">Payment Information</h3>
           <form
@@ -75,6 +82,7 @@
                 type="text"
               />
             </div>
+
             <div>
               <label for="credit-card-num"
                 >Card Number
@@ -92,6 +100,7 @@
                 type="text"
               />
             </div>
+
             <div>
               <p class="expires">Expires on:</p>
               <div class="card-experation">
@@ -111,6 +120,7 @@
                   <option value="">November</option>
                   <option value="">Decemeber</option>
                 </select>
+
                 <label class="expiration-year">Year</label>
                 <select id="experation-year" name="experation-year" required>
                   <option value="">Year</option>
@@ -121,6 +131,7 @@
                 </select>
               </div>
             </div>
+
             <div>
               <label for="cvv">CVV</label>
               <input
@@ -130,18 +141,19 @@
                 type="text"
                 required
               />
-            </div>
-            <button class="btn">
-              <i class="fa-solid fa-lock"></i> Book Securely
+
+            <button class="btn" >
+              <i class="fa-solid fa-lock" ></i> Book Securely
             </button>
           </form>
+      
           <p class="footer-text">
             <i class="fa-solid fa-lock"></i>
             Your credit card infomration is encrypted
           </p>
         </div>
       </div>
-    </main>
+    </div>
     <p style="background-image: url(Background.png)"></p>
     <footer class="footer1">
       <div class="logo">
