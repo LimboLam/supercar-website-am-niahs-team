@@ -195,6 +195,7 @@ padding: 8px;
 
 .home-cards {
   display: flex;
+  padding-bottom: 3vh;
 }
 
 .home-card{
@@ -655,10 +656,6 @@ label {
 
 .btn:hover {
   background-color: #45a049;
-}
-
-a {
-  color: #2196F3;
 }
 
 hr {
