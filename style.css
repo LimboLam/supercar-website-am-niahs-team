@@ -432,6 +432,11 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.merchpos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /*Merch Preview*/
 .arrow {
   border: solid black;
@@ -1153,4 +1158,5 @@ hr {
 }
 .popup:target {
   display: flex;
+  bottom: -47%;
 }
