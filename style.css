@@ -417,7 +417,7 @@ clear: both;
 
 .merchpos {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 /*Merch Preview*/
