@@ -796,7 +796,7 @@ left: 23vw;
   margin-left: 253px;
 }
 div.backgroundr {
-  background: white url(images/red-car.png) no-repeat center;
+  background: white url(images/image-removebg-preview\ \(2\).png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -832,7 +832,7 @@ div.transboxy {
   font-weight: bold;
 }
 div.backgroundb {
-  background: white url(images/blue-car.png) no-repeat center;
+  background: white url(images/image-removebg-preview\ \(3\).png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -850,7 +850,7 @@ div.transboxb {
   font-weight: bold;
 }
 div.backgroundbk {
-  background: white url(images/black-car.png) no-repeat center;
+  background: white url(images/image-removebg-preview\ \(5\).png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -1148,11 +1148,17 @@ hr {
   align-items: center;
 }
 .popup1{
-  padding: 10px 20px; 
-  background-color: #5f7986; 
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  font-size: xx-large;
+  padding: 17px 436px; 
+  background-color: #566d79; 
   color: #fff;
   text-decoration: none; 
   border-radius: 5px;
+  text-align: center;
 }
 .popup-content {
   background: #fff;
