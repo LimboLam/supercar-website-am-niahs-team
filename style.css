@@ -5,6 +5,9 @@ body {
   background-color: #d9d9d9;
   margin: 0;
   padding: 0;
+  background-image: url(Background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .bodytype {
@@ -153,6 +156,8 @@ max-width: 120px;
 .lastkpicn{
   width: 100%;
   height: 90%;
+  position: relative;
+  left: 1vw;
 }
 
 .lastkpicpr{
@@ -179,20 +184,11 @@ max-width: 120px;
   width: 50%;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.home-main {
-  margin: 0 -5px;
-}
-
 /* Clear floats after the columns */
 .home-main:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.home-main, .home-main > .home-card {
-padding: 8px;
 }
 
 .home-cards {
@@ -414,12 +410,6 @@ clear: both;
   content: "";
   clear: both;
   display: table;
-}
-
-body {
-  background-image: url(Background.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .cardpr {
@@ -713,7 +703,7 @@ span.price {
 }
 
 div.background {
-  background: white url(images/white-car.png) no-repeat center;
+  background: white url(images/black-car.png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -742,7 +732,7 @@ div.transbox {
   justify-content: space-between;
   margin-bottom: 12%;
   position: relative;
-  right: -3vw;
+  right: -1vw;
   bottom: -2vh;
   justify-content: space-around;
   margin-bottom: 1em;
@@ -789,14 +779,14 @@ left: 23vw;
 }
 
 .buttonconcu{
-  width: 235px; ;
-  font-size:31px;
-  text-align: center ;
-  margin-top: 3%;
-  margin-left: 253px;
+  width: 235px;
+  font-size: 31px;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 45%;
 }
 div.backgroundr {
-  background: white url(images/image-removebg-preview\ \(2\).png) no-repeat center;
+  background: white url(images/red-car.png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -832,7 +822,7 @@ div.transboxy {
   font-weight: bold;
 }
 div.backgroundb {
-  background: white url(images/image-removebg-preview\ \(3\).png) no-repeat center;
+  background: white url(images/blue-car.png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -849,8 +839,8 @@ div.transboxb {
   margin: 30px;
   font-weight: bold;
 }
-div.backgroundbk {
-  background: white url(images/image-removebg-preview\ \(5\).png) no-repeat center;
+div.backgroundpr {
+  background: white url(images/purple-car.png) no-repeat center;
   background-size: cover;
   align-items: center;
   display: flex;
@@ -899,7 +889,7 @@ hr {
 
 /* Left Side Of Container */
 .left-side {
-  background: url(images/white-car.png);
+  background: url(images/black-car.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -922,8 +912,8 @@ hr {
   background-size: cover;
   position: relative;
 }
-.left-sidebk {
-  background: url(images/black-car.png);
+.left-sidepr {
+  background: url(images/purple-car.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1078,7 +1068,7 @@ hr {
 
 .footer1 {
   position: absolute;
-  bottom: -70%;
+  bottom: -52%;
 }
 /*pop up page*/
 .box {
