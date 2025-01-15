@@ -601,7 +601,7 @@ clear: both;
 .col-25,
 .col-50,
 .col-75 {
-  padding: 0 16px;
+  padding-left: 16px;
 }
 
 .containerco {
@@ -612,7 +612,7 @@ clear: both;
 }
 
 input[type=text] {
-  width: 100%;
+  width: 98vw;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
