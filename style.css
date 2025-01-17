@@ -580,7 +580,7 @@ clear: both;
 .rowco {
   display: flex;
   flex-flow: column;
-  margin: 0 -16px;
+  /* margin: 0 -16px; */
 }
 
 .col-25 {
@@ -597,12 +597,12 @@ clear: both;
   -ms-flex: 75%;
   flex: 75%;
 }
-
+/* 
 .col-25,
 .col-50,
 .col-75 {
   padding-left: 16px;
-}
+} */
 
 .containerco {
   background-color: #f2f2f2;
@@ -612,7 +612,7 @@ clear: both;
 }
 
 input[type=text] {
-  width: 98vw;
+  width: 97vw;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
